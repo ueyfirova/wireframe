@@ -1,0 +1,82 @@
+/* stylelint-disable */
+@font-face {
+	font-family: 'prohibition', sans-serif;
+	src:
+	  url("../fonts/Prohibition-Regular.woff"),
+	  url("../fonts/Prohibition-Regular.woff2");
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+  }
+
+  @font-face {
+	font-family: 'Rustico';
+	src:
+	  url("../fonts/Rustico-V2-Regular.woff"),
+	  url("../fonts/Rustico-V2-Regular.woff2");
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+  }
+
+
+  @font-face {
+	font-family: 'Source Sans Pro', sans-serif;
+	src:
+	  url("../fonts/SourceSansPro-Regular.woff"),
+	  url("../fonts/SourceSansPro-Regular.woff2");
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+  }
+
+  @font-face {
+	font-family: 'Source Sans Pro', sans-serif;
+	src:
+	  url("../fonts/SourceSansPro-SemiBold.woff"),
+	  url("../fonts/SourceSansPro-SemiBold.woff2");
+	font-weight: 600;
+	font-display: swap;
+	font-style: normal;
+  }
+
+  @font-face {
+	font-family: 'Source Sans Pro', sans-serif;
+	src:
+	  url("../fonts/SourceSansPro-Bold.woff"),
+	  url("../fonts/SourceSansPro-Bold.woff2");
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+  }
+
+@mixin box {
+	display: block;
+  	position:relative;
+  	overflow: hidden;
+  	width: 100%;
+	box-sizing: border-box;
+	height: auto;
+}
+
+#wrapper,
+main,
+#content,
+#sidebar,
+aside,
+section{
+	@include box;
+}
+.layout {
+	@include box;
+	margin:0 auto;
+}
+
+$dark-blue: #18064E;
+$light-blue: #00FFE1;
+$pink: #F30EC3;
+$grey: #F2F2F2;
+$font-weight: 400;
+$font: 'Source Sans Pro',sans-serif;
+
+

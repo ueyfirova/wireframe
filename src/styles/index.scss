@@ -1,6 +1,7 @@
-$body-color: green;
+/* stylelint-disable */
 
-body {
-  color: $body-color;
-  font-family: sans-serif;
-}
+@import "settings.scss";
+@import "reset.scss";
+
+
+
