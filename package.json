@@ -58,7 +58,9 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "core-js": "^3.20.3"
+    "core-js": "^3.20.3",
+    "jquery": "^3.6.0",
+    "slick-carousel": "^1.8.1"
   },
   "homepage": "https://github.com/wbkd/webpack-starter#readme",
   "main": "postcss.config.js"

@@ -2,7 +2,7 @@
 
 @import "settings.scss";
 @import "reset.scss";
-
+@import "libs/slick.scss";
 //Header
 
 .header {
@@ -52,11 +52,6 @@
 
 .menu__icon {
 	display: none;
-}
-
-.page__item2 {
-	height: 100vh;
-	background-color: $dark-blue;
 }
 
 .page__item3 {
@@ -224,6 +219,20 @@ body.lock {
 			font-size: 78px;
 			width: 70%;
 		}
+	}
+}
+
+.page__item2 {
+	height: 100vh;
+	background-color: $dark-blue;
+
+	h2 {
+		font-family: 'Rustico';
+		font-size: 56px;
+		color: $light-blue;
+		display: block;
+		text-align: center;
+		margin: 50px 0;
 	}
 }
 

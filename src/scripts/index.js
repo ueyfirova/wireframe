@@ -1,6 +1,8 @@
 "use strict";
 
 import '../styles/index.scss';
+import $ from "jquery";
+import "slick-carousel";
 
 
 //hamburger menu
@@ -43,4 +45,6 @@ if(menuLinks.length > 0) {
 		}
 	}
 }
+
+$(".carousel").slick();
 
