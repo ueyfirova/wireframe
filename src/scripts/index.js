@@ -17,6 +17,24 @@ if (iconMenu) {
 	});
 }
 
+//form
+const contactForm = document.querySelector('.button');
+const shadowForm = document.querySelector('.form');
+const mainForm = document.querySelector('.form__wrap');
+const closeForm = document.querySelector('.close');
+if (contactForm) {
+	contactForm.addEventListener("click", function(e) {
+		document.body.classList.toggle('lock');
+		shadowForm.classList.toggle('active');
+		mainForm.classList.toggle('active');
+	});
+}
+closeForm.addEventListener('click', function(e){
+	document.body.classList.remove('lock');
+	shadowForm.classList.remove('active');
+	mainForm.classList.remove('active');
+});
+
 //smooth scroll
 
 const menuLinks = document.querySelectorAll('.menu__link[data-goto]');

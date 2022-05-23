@@ -93,6 +93,33 @@
 			<h2>get in touch</h2>
 			<input type="button" value="contact form" class="button">
 		</div>
+		<div class="form">
+			<form class="form__wrap" action="" method="post">
+				<div class="close"></div>
+				<fieldset>
+					<legend>fill me in</legend>
+					<div>
+						<input type="text" required name="name" placeholder="Name*"/>
+					</div>
+					<div>
+						<input type="text" required name="email" placeholder="Email*"/>
+					</div>
+					<div>
+						<input type="password" name="first_name" placeholder="Password*"/>
+					</div>
+					<div>
+						<input type="tel" id="phone" name="phone" placeholder="Phone number*" pattern="[+]{44}[0-9]{11,14}" required>
+					</div>
+					<div>
+						<input type="text" name="company" placeholder="company*"/>
+					</div>
+					<div>
+						<textarea name="message" placeholder="Message*" required></textarea>
+					</div>    
+					<input type="submit" name="submit" value="submit"/>
+				</fieldset>    
+			</form>
+		</div>
 	</footer>
 </body>
 </html>
